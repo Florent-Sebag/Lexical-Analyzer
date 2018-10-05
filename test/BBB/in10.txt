@@ -1,0 +1,9 @@
+funcion entero sum(entero a, entero b) hacer
+    retornar a + b;
+fin_funcion
+
+funcion_principal
+
+    imprimir (sum(3,5))
+
+fin_principal

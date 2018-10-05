@@ -1,0 +1,44 @@
+//Calculadora
+//Ciclo Hacer - Seleccion Multiple, Datos real,entero
+
+funcion_principal
+    real num1,num2;
+    entero opcion;
+
+    imprimir ("Ingrese el primer numero  ");
+    leer (num1);
+    imprimir ("Ingrese el segundo numero");
+    leer (num2);
+
+    hacer
+
+
+   imprimir (" Calculadora Basica");
+       imprimir ("1 Sumar ");
+       imprimir ("2 Restar ");
+       imprimir ("3 Multiplicar ");
+       imprimir ("4 Dividir ");
+       imprimir ("5 Salir ");
+       imprimir ("Digite su opcion ");
+
+       leer (opcion);
+       seleccionar ( opcion ) entre
+
+           caso 1 : imprimir (" La suma es ", num1 + num2);
+                    romper;
+           caso 2 : imprimir (" La resta es ", num1 - num2);
+                    romper;
+           caso 3 : imprimir (" La multiplicacion es ", num1 * num2);
+                    romper;
+           caso 4 : si ( num2 != 0 ) entonces
+                       imprimir (" La division es ",  num1 / num2);
+                    si_no
+                       imprimir ("Operacion no permitida  Division por 0 ");
+                    fin_si
+                    romper;
+           caso 5 : romper;
+           defecto :imprimir("Digite una opcion entre 1 y 5 ");
+                    romper;
+       fin_seleccionar
+    mientras ( opcion != 5 ) ;
+fin_principal

@@ -1,0 +1,71 @@
+funcion_principal
+    entero tipo = 0;
+    entero option = 0;
+    entero altura;
+    real radio ;
+     entero base;
+     entero lado;
+     entero baseMayor;
+     entero baseMenor;
+    entero arista;
+    imprimir("0 Area volumen");
+    leer(tipo);
+    seleccionar ( tipo ) entre
+        caso 0 :
+            imprimir("0 Triangulo Cuadrado Circulo Trapecio");
+            leer(option);
+            seleccionar ( option ) entre
+                caso 0 :
+
+                    imprimir("ingrese la base");
+                    leer(base);
+                    imprimir("ingrese la altura");
+                    leer(altura);
+                    imprimir(base*altura/2);
+                caso 1 :
+                   imprimir("ingrese el lado");
+                    leer(lado);
+                    imprimir(lado*lado);
+                caso 2 :
+                    imprimir("ingrese el radio");
+                    leer(radio);
+                    imprimir(3.14 * radio*radio);
+
+                caso 3 :
+                    imprimir("ingrese la base mayor");
+                    leer(baseMayor);
+                    imprimir("ingrese la base menor");
+                    leer(baseMenor);
+                    imprimir("ingrese la altura");
+                    leer(altura);
+                    imprimir((baseMayor+baseMenor)/2 * altura);
+                defecto:
+            fin_seleccionar
+
+        caso 1 :
+            imprimir(" Piramide Cubo Esfera");
+            leer(option);
+            seleccionar ( option ) entre
+                caso 0 :
+                    imprimir("ingrese la arista");
+                    leer(arista);
+                    imprimir("ingrese la altura");
+                    leer(altura);
+                    imprimir(arista*altura/3);
+                caso 1 :
+                    imprimir("ingrese el lado");
+                    leer(lado);
+                    imprimir(lado*lado*lado);
+                caso 2 :
+                    imprimir("ingrese el radio");
+                    leer(radio);
+                    imprimir(4/3 * 3.14 * radio*radio*radio);
+                defecto:
+            fin_seleccionar
+
+        defecto:
+
+    fin_seleccionar
+
+
+fin_principal

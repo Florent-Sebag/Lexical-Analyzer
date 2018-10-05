@@ -1,0 +1,6 @@
+<tk_caracter,'a',1,1>
+<tk_cadena,"aura_ cari",2,2>
+<tk_caracter,' ',3,2>
+<tk_caracter,'_',4,2>
+<tk_entero,5,5,2>
+<tk_real,5.2,6,2>

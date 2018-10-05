@@ -1,0 +1,10 @@
+funcion_principal
+    booleano flag;
+    leer(flag);
+    caracter letter = 'x';
+    leer(letter);entero count = 7;
+    real mean;
+    cadena name = "Lenguajes de programacion";
+    entero x,y=1,z=0;
+    leer(x);leer(y);leer(z);
+fin_principal

@@ -1,0 +1,23 @@
+funcion_principal
+    entero anio;
+    leer( anio );
+    si ( anio % 4==0) entonces
+        si ( anio%400==0 ) entonces
+
+             imprimir( "es biciestro" );
+        si_no
+             imprimir( "no es biciestro" );
+
+        fin_si
+   
+    si_no
+        imprimir( "no es biciestro" );
+   
+    fin_si
+
+fin_principal
+si_nofin_si
+sino
+finsi
+fin_si1
+fin_sifin_si
